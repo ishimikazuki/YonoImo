@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YNS166FEP4'); // トラッキングIDをクォーテーションマークで囲む
+    
+    // Redirect to Google Form after tracking
+    setTimeout(function(){
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdHoBmRlwfmuGv9cuPtxog5ABTBrP_nFyDJfalllZyS_HPy2Q/viewform"; // URLをクォーテーションマークで囲む
+    }, 1000); // 1 second delay to ensure tracking
+  </script>
+</head>
+<body>
+  <p>Redirecting to the survey...</p>
+</body>
+</html>
